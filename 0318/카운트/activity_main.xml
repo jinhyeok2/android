@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="카운터: "
+        android:textSize="50dp"
+        android:id="@+id/counter"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="카운터 증가"
+        android:onClick="btn1"
+        android:id="@+id/btnPlus"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="카운터 감소"
+        android:onClick="btn2"
+        android:id="@+id/btnMinus"/>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
