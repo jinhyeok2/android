@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clothingImageView"
+        android:src="@drawable/img0"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorButton1"
+        android:text="Color 1"
+        android:layout_below="@id/clothingImageView"
+        android:layout_alignParentLeft="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorButton2"
+        android:text="Color 2"
+        android:layout_toRightOf="@id/colorButton1"
+        android:layout_alignTop="@id/colorButton1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorButton3"
+        android:text="Color 3"
+        android:layout_toRightOf="@id/colorButton2"
+        android:layout_alignTop="@id/colorButton2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorButton4"
+        android:text="Color 4"
+        android:layout_toRightOf="@id/colorButton3"
+        android:layout_alignTop="@id/colorButton3"/>
+
+
+
+</RelativeLayout>
